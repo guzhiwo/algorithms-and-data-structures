@@ -32,8 +32,6 @@ Var
   TreeNum, faculty: string;
   Fin1, Fin2, Fout: text;
 
-
-
 Procedure PechPr1(var r1, r2: ukaz; s: string; var faculty: string; var isNotEnd: boolean);
 Var
   St: string;
@@ -149,7 +147,6 @@ Begin
 End;
 
 Begin
-
   Assign(Fin1, 'input1.txt');
   Assign(Fin2, 'input2.txt'); 
   Assign(Fout, 'output.txt'); 
